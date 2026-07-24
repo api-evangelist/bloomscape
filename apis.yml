@@ -1,8 +1,13 @@
 aid: bloomscape
 name: Bloomscape
-description: 'Bloomscape is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Bloomscape is a direct-to-consumer houseplant company that grows plants in its own greenhouses
+  and ships them fully grown directly to customers'' doors, bypassing traditional retail and nursery
+  supply chains. Alongside houseplants, it sells planters, plant-care accessories, and gifting options,
+  and backs every order with its Grow-How team of horticultural experts plus a plant guarantee. The
+  company was surfaced as a portfolio company of General Catalyst and added to the API Evangelist network.
+  Bloomscape operates a consumer e-commerce storefront and publishes no public developer API, SDK, or
+  documented developer surface at this time; this profile captures its public web, support, and legal
+  properties along with a domain-security probe.'
 url: https://raw.githubusercontent.com/api-evangelist/bloomscape/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,29 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://bloomscape.com/apple-touch-icon.png
 tags:
 - Company
 - Consumer
+- Houseplants
+- E-Commerce
+- Direct-to-Consumer
+- Gardening
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bloomscape-domain-security.yml
 - type: Website
   url: https://bloomscape.com
+- type: Blog
+  url: https://bloomscape.com/plant-life/
+- type: Support
+  url: https://support.bloomscape.com
+- type: TermsOfService
+  url: https://bloomscape.com/terms
+- type: PrivacyPolicy
+  url: https://bloomscape.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
