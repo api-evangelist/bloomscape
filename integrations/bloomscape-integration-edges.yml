@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/bloomscape/integrations
+- https://n8n.io/integrations/bloomscape/
+- https://composio.dev/toolkits/bloomscape
+- https://monid.ai/tools/bloomscape
+checked:
+- https://composio.dev/toolkits/bloomscape
+- https://monid.ai/tools/bloomscape
+- https://n8n.io/integrations/bloomscape/
+- https://zapier.com/apps/bloomscape/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
